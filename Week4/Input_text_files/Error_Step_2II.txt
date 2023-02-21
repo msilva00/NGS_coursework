@@ -1,0 +1,13 @@
+Dataset Error Report
+An error occurred while running the tool toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1.
+
+Details
+Execution resulted in the following messages:
+
+Fatal error: Exit code 1 ()
+Tool generated the following standard error:
+
+Error, fewer reads in file specified with -2 than in file specified with -1
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+[bam_sort_core] merging from 29 files and 1 in-memory blocks...

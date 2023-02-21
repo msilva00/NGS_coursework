@@ -1,0 +1,94 @@
+Dataset Information
+Number	148
+Name	HISAT2 on data 143 and data 142: aligned reads (BAM)
+Created	Sunday Feb 19th 10:49:41 2023 UTC
+Filesize	2.4 GB
+Dbkey	hg38
+Format	bam
+File contents	contents
+History Content API ID	
+f9cad7b01a472135a4dd66c86bb5ce0c
+History API ID	
+fb852668cb439203
+UUID	bf60ec20-cec1-485e-ac66-dce3f5aeb55d
+Tool Parameters
+Input Parameter	Value
+Source for the reference genome
+indexed
+Select a reference genome
+hg38
+Is this a single or paired library
+paired
+FASTA/Q file #1	142: Trimmomatic on SRR6188774 (fastq-dump) (R1 paired)
+FASTA/Q file #2	143: Trimmomatic on SRR6188776 (fastq-dump) (R2 paired)
+Specify strand information
+Unstranded
+Paired-end options
+defaults
+sum
+Output alignment summary in a more machine-friendly style.
+False
+Print alignment summary to a file.
+False
+adv
+Input options
+defaults
+Alignment options
+defaults
+Scoring options
+defaults
+Spliced alignment options
+defaults
+Reporting options
+defaults
+Output options
+defaults
+SAM options
+defaults
+Other options
+defaults
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+HISAT2 on : aligned reads (BAM)	148: HISAT2 on data 143 and data 142: aligned reads (BAM)
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1 
+Command Line	empty
+Tool Standard Output	empty
+Tool Standard Error	
+27168566 reads; of these: 27168566 (100.00%) were paired; of these: 26958409 (99.23%) aligned concordantly 0 times 131136 (0.48%) aligned concordantly exactly 1 time 79021 (0.29%) aligned concordantly >1 times ---- 26958409 pairs aligned concordantly 0 times; of these: 13687856 (50.77%) aligned discordantly 1 time ---- 13270553 pairs aligned 0 times concordantly or discordantly; of these: 26541106 mates make up the pairs; of these: 6547849 (24.67%) aligned 0 times 14946289 (56.31%) aligned exactly 1 time 5046968 (19.02%) aligned >1 times 87.95% overall alignment rate [bam_sort_core] merging from 24 files and 1 in-memory blocks...
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b5a6b64d9140b8d1b4
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+HISAT2 on data 143 and data 142: aligned reads (BAM)
+Job Metrics
+cgroup
+CPU Time	2 hours and 47 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	13.8 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	13.8 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	6
+Memory Allocated (MB)	30720
+Job Start Time	2023-02-19 05:47:15
+Job End Time	2023-02-19 06:16:50
+Job Runtime (Wall Clock)	29 minutes
+cpuinfo
+Processor Count	32
+meminfo
+Total System Memory	122.8 GB
+Total System Swap	1000.0 MB
+uname
+Operating System	Linux roundup59 3.10.0-1062.18.1.el7.x86_64 #1 SMP Tue Mar 17 23:49:17 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+Binary bam alignments file

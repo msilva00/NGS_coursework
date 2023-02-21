@@ -1,0 +1,78 @@
+Dataset Information
+Number	138
+Name	Trimmomatic on SRR6188783 (fastq-dump) (R1 paired)
+Created	Sunday Feb 19th 10:47:16 2023 UTC
+Filesize	1.1 GB
+Dbkey	?
+Format	fastqsanger.gz
+File contents	contents
+History Content API ID	
+f9cad7b01a4721351efce26035d0edac
+History API ID	
+fb852668cb439203
+UUID	8d7ac666-a66f-4298-ac6d-35ed70e4692b
+Tool Parameters
+Input Parameter	Value
+Single-end or paired-end reads?
+pair_of_files
+Input FASTQ file (R1/first of pair)		SRR6188783 (fastq-dump)
+Input FASTQ file (R2/second of pair)	SRR6188785 (fastq-dump)
+Perform initial ILLUMINACLIP step?
+no
+Select Trimmomatic operation to perform
+SLIDINGWINDOW
+Number of bases to average across
+4
+Average quality required
+30
+Output trimlog file?
+False
+Output trimmomatic log messages?
+False
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+Trimmomatic on SRR6188783 (fastq-dump) (R1 paired)	
+Trimmomatic on SRR6188785 (fastq-dump) (R2 paired)	
+Trimmomatic on SRR6188783 (fastq-dump) (R1 unpaired)	
+Trimmomatic on SRR6188785 (fastq-dump) (R2 unpaired)	
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.38.0 
+Command Line	empty
+Tool Standard Output	empty
+Tool Standard Error	empty
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b555ca7bf3ee14907d
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+Trimmomatic on SRR6188783 (fastq-dump) (R1 paired)
+Job Metrics
+cgroup
+CPU Time	37 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	8.1 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	8.1 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	8
+Memory Allocated (MB)	29900
+Job Start Time	2023-02-19 05:22:31
+Job End Time	2023-02-19 05:40:52
+Job Runtime (Wall Clock)	18 minutes
+cpuinfo
+Processor Count	8
+meminfo
+Total System Memory	28.7 GB
+Total System Swap	0 bytes
+uname
+Operating System	Linux js2-medium5.novalocal 6.1.2-1.el8.elrepo.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Dec 31 09:16:46 EST 2022 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+@1/1 GTCCCACAGTGTGGCTGTTTGGCAACAACCAGTCCATAGAAGAGGTAGCTGTGGAGGTCACACGCATGTTCCCAAGGCTCAGGCTCCTGCTCCTCCCCACTGGGCCCACCGAGGTCGCTGGGCCTC + BBBBBFFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB7BFFFFFFFFBF @1/2
