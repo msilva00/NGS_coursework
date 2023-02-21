@@ -16,8 +16,8 @@ Tool Parameters
 Input Parameter	Value
 Is this library paired- or single-end?
 paired
-Reads in FASTQ format	
-Reads in FASTQ format	
+Reads in FASTQ format	1: SRR68188779 (fastq-dump)
+Reads in FASTQ format	2: SRR68188780 (fastq-dump)
 Adapter sequence to be trimmed
 Trims 1 bp off every read from its 3' end.
 False
