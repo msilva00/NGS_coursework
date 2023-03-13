@@ -1,0 +1,96 @@
+Dataset Information
+Number	187
+Name	Trim Galore! on data 133: trimmed reads pair 2
+Created	Wednesday Feb 22nd 4:55:53 2023 UTC
+Filesize	2.3 GB
+Dbkey	?
+Format	fastqsanger.gz
+File contents	contents
+History Content API ID	
+f9cad7b01a472135adaca4f697abd0c9
+History API ID	
+fb852668cb439203
+UUID	19df97c8-e9f2-419b-a888-875aff9308db
+Originally Created From a File Named	input_2_val_2.fq
+Tool Parameters
+Input Parameter	Value
+Is this library paired- or single-end?
+paired
+Reads in FASTQ format	
+Reads in FASTQ format	
+Adapter sequence to be trimmed
+Trims 1 bp off every read from its 3' end.
+False
+Remove N bp from the 3' end of read 1
+Not available.
+Remove N bp from the 3' end of read 2
+Not available.
+Advanced settings
+custom
+Trim low-quality ends from reads in addition to adapter removal (Enter phred quality score threshold)
+30
+Overlap with adapter sequence required to trim a sequence
+1
+Maximum allowed error rate
+0.1
+Discard reads that became shorter than length N
+20
+Instructs Trim Galore! to remove N bp from the 5' end of read 1
+Not available.
+Instructs Trim Galore! to remove N bp from the 5' end of read 2 (Only for paired-end reads)
+Not available.
+Generate a report file
+False
+specify if you would like to retain unpaired reads
+no_output
+RRBS specific settings
+default
+Trimming settings
+default
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+Trim Galore! on : trimmed reads pair 1	
+Trim Galore! on : trimmed reads pair 2	
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.6.7+galaxy0 
+Command Line	empty
+Tool Standard Output	
+pigz 2.6 total 5G drwxr-xr-x 2 g2main G-803372 4.0K Feb 21 23:45 . drwxr-xr-x 13 g2main G-803372 4.0K Feb 21 23:12 .. lrwxrwxrwx 1 g2main G-803372 76 Feb 21 23:12 input_1.fastq.gz -> /corral4/main/objects/5/5/7/dataset_5575cccb-c1bf-43a8-a601-38b52ec7036b.dat -rw-r--r-- 1 g2main G-803372 2.3G Feb 21 23:45 input_1_val_1.fq lrwxrwxrwx 1 g2main G-803372 76 Feb 21 23:12 input_2.fastq.gz -> /corral4/main/objects/5/5/7/dataset_5575cccb-c1bf-43a8-a601-38b52ec7036b.dat -rw-r--r-- 1 g2main G-803372 2.3G Feb 21 23:45 input_2_val_2.fq
+Tool Standard Error	
+Path to Cutadapt set as: 'cutadapt' (default) Cutadapt seems to be working fine (tested command 'cutadapt --version') Cutadapt version: 3.4 Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<) Letting the (modified) Cutadapt deal with the Python version instead Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 6 cores Output will be written into the directory: /corral4/main/jobs/048/554/48554126/working/ AUTO-DETECTING ADAPTER TYPE =========================== Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> input_1.fastq.gz <<) Found perfect matches for the following adapter sequences: Adapter type Count Sequence Sequences analysed Percentage Nextera 43555 CTGTCTCTTATA 1000000 4.36 smallRNA 2 TGGAATTCTCGG 1000000 0.00 Illumina 0 AGATCGGAAGAGC 1000000 0.00 Using Nextera adapter for trimming (count: 43555). Second best hit was smallRNA (count: 2) SUMMARISING RUN PARAMETERS ========================== Input filename: input_1.fastq.gz Trimming mode: paired-end Trim Galore version: 0.6.7 Cutadapt version: 3.4 Python version: could not detect Number of cores used for trimming: 6 Quality Phred score cutoff: 30 Quality encoding type selected: ASCII+33 Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected) Maximum trimming error rate: 0.1 (default) Minimum required adapter overlap (stringency): 1 bp Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp Output file(s) will be GZIP compressed Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 6 Writing final adapter and quality trimmed output to input_1_trimmed.fq.gz >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file input_1.fastq.gz <<< 10000000 sequences processed 20000000 sequences processed 30000000 sequences processed 40000000 sequences processed This is cutadapt 3.4 with Python 3.9.6 Command line parameters: -j 6 -e 0.1 -q 30 -O 1 -a CTGTCTCTTATA input_1.fastq.gz Processing reads on 6 cores in single-end mode ... Finished in 598.43 s (13 µs/read; 4.55 M reads/minute). === Summary === Total reads processed: 45,375,480 Reads with adapters: 16,185,422 (35.7%) Reads written (passing filters): 45,375,480 (100.0%) Total basepairs processed: 5,717,310,480 bp Quality-trimmed: 337,498,596 bp (5.9%) Total written (filtered): 5,286,913,780 bp (92.5%) === Adapter 1 === Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 16185422 times No. of allowed errors: 1-9 bp: 0; 10-12 bp: 1 Bases preceding removed adapters: A: 19.8% C: 30.7% G: 24.5% T: 24.9% none/other: 0.1% Overview of removed sequences length count expect max.err error counts 1 10260152 11343870.0 0 10260152 2 2582718 2835967.5 0 2582718 3 916634 708991.9 0 916634 4 236972 177248.0 0 236972 5 89624 44312.0 0 89624 6 56891 11078.0 0 56891 7 46316 2769.5 0 46316 8 43821 692.4 0 43821 9 48499 173.1 0 47384 1115 10 36439 43.3 1 34373 2066 11 43890 10.8 1 42470 1420 12 44374 2.7 1 43620 754 13 38104 2.7 1 37650 454 14 35490 2.7 1 35059 431 15 38877 2.7 1 38296 581 16 38613 2.7 1 33224 5389 17 48069 2.7 1 42191 5878 18 35254 2.7 1 33128 2126 19 45460 2.7 1 44975 485 20 40788 2.7 1 40323 465 21 43711 2.7 1 43140 571 22 41886 2.7 1 41357 529 23 34639 2.7 1 34143 496 24 35170 2.7 1 34730 440 25 37841 2.7 1 37353 488 26 36654 2.7 1 36144 510 27 41502 2.7 1 40991 511 28 32966 2.7 1 32443 523 29 40299 2.7 1 39824 475 30 37108 2.7 1 36682 426 31 28126 2.7 1 27759 367 32 37951 2.7 1 37593 358 33 30031 2.7 1 29698 333 34 32804 2.7 1 32421 383 35 32632 2.7 1 32305 327 36 29609 2.7 1 29200 409 37 33009 2.7 1 32674 335 38 36298 2.7 1 35853 445 39 34081 2.7 1 33680 401 40 26611 2.7 1 26233 378 41 26522 2.7 1 26221 301 42 34890 2.7 1 34537 353 43 52139 2.7 1 51715 424 44 21077 2.7 1 20744 333 45 19407 2.7 1 19078 329 46 27799 2.7 1 27429 370 47 27435 2.7 1 27077 358 48 22017 2.7 1 21709 308 49 26566 2.7 1 26218 348 50 13393 2.7 1 13155 238 51 21744 2.7 1 21398 346 52 17660 2.7 1 17330 330 53 19690 2.7 1 19421 269 54 24335 2.7 1 24000 335 55 18663 2.7 1 18425 238 56 15459 2.7 1 15174 285 57 23177 2.7 1 22901 276 58 17422 2.7 1 17133 289 59 15338 2.7 1 15056 282 60 12713 2.7 1 12474 239 61 13093 2.7 1 12833 260 62 10734 2.7 1 10505 229 63 16312 2.7 1 16000 312 64 11143 2.7 1 10917 226 65 11020 2.7 1 10793 227 66 12531 2.7 1 12286 245 67 10865 2.7 1 10646 219 68 11066 2.7 1 10853 213 69 12086 2.7 1 11879 207 70 12553 2.7 1 12320 233 71 11548 2.7 1 11306 242 72 12288 2.7 1 12063 225 73 13120 2.7 1 12860 260 74 13868 2.7 1 13620 248 75 15842 2.7 1 15589 253 76 49641 2.7 1 49296 345 77 17075 2.7 1 16812 263 78 6415 2.7 1 6210 205 79 5776 2.7 1 5527 249 80 13972 2.7 1 13731 241 81 3539 2.7 1 3233 306 82 838 2.7 1 602 236 83 584 2.7 1 355 229 84 536 2.7 1 342 194 85 505 2.7 1 316 189 86 563 2.7 1 351 212 87 498 2.7 1 305 193 88 612 2.7 1 275 337 89 456 2.7 1 244 212 90 459 2.7 1 212 247 91 348 2.7 1 116 232 92 344 2.7 1 94 250 93 450 2.7 1 95 355 94 304 2.7 1 75 229 95 350 2.7 1 90 260 96 305 2.7 1 69 236 97 247 2.7 1 37 210 98 299 2.7 1 29 270 99 214 2.7 1 9 205 100 374 2.7 1 0 374 101 206 2.7 1 1 205 102 215 2.7 1 0 215 103 266 2.7 1 0 266 104 198 2.7 1 1 197 105 208 2.7 1 1 207 106 177 2.7 1 1 176 107 173 2.7 1 2 171 108 248 2.7 1 0 248 109 216 2.7 1 0 216 110 310 2.7 1 0 310 111 314 2.7 1 1 313 112 228 2.7 1 1 227 113 224 2.7 1 1 223 114 139 2.7 1 1 138 115 173 2.7 1 0 173 116 274 2.7 1 4 270 117 273 2.7 1 5 268 118 505 2.7 1 2 503 119 109 2.7 1 1 108 120 118 2.7 1 0 118 121 59 2.7 1 0 59 122 155 2.7 1 2 153 123 217 2.7 1 3 214 124 179 2.7 1 0 179 125 69 2.7 1 0 69 126 37 2.7 1 0 37 RUN STATISTICS FOR INPUT FILE: input_1.fastq.gz ============================================= 45375480 sequences processed in total The length threshold of paired-end sequences gets evaluated later on (in the validation step) SUMMARISING RUN PARAMETERS ========================== Input filename: input_2.fastq.gz Trimming mode: paired-end Trim Galore version: 0.6.7 Cutadapt version: 3.4 Python version: could not detect Number of cores used for trimming: 6 Quality Phred score cutoff: 30 Quality encoding type selected: ASCII+33 Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected) Maximum trimming error rate: 0.1 (default) Minimum required adapter overlap (stringency): 1 bp Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp Output file(s) will be GZIP compressed Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 6 Writing final adapter and quality trimmed output to input_2_trimmed.fq.gz >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file input_2.fastq.gz <<< 10000000 sequences processed 20000000 sequences processed 30000000 sequences processed 40000000 sequences processed This is cutadapt 3.4 with Python 3.9.6 Command line parameters: -j 6 -e 0.1 -q 30 -O 1 -a CTGTCTCTTATA input_2.fastq.gz Processing reads on 6 cores in single-end mode ... Finished in 597.70 s (13 µs/read; 4.55 M reads/minute). === Summary === Total reads processed: 45,375,480 Reads with adapters: 16,185,422 (35.7%) Reads written (passing filters): 45,375,480 (100.0%) Total basepairs processed: 5,717,310,480 bp Quality-trimmed: 337,498,596 bp (5.9%) Total written (filtered): 5,286,913,780 bp (92.5%) === Adapter 1 === Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 16185422 times No. of allowed errors: 1-9 bp: 0; 10-12 bp: 1 Bases preceding removed adapters: A: 19.8% C: 30.7% G: 24.5% T: 24.9% none/other: 0.1% Overview of removed sequences length count expect max.err error counts 1 10260152 11343870.0 0 10260152 2 2582718 2835967.5 0 2582718 3 916634 708991.9 0 916634 4 236972 177248.0 0 236972 5 89624 44312.0 0 89624 6 56891 11078.0 0 56891 7 46316 2769.5 0 46316 8 43821 692.4 0 43821 9 48499 173.1 0 47384 1115 10 36439 43.3 1 34373 2066 11 43890 10.8 1 42470 1420 12 44374 2.7 1 43620 754 13 38104 2.7 1 37650 454 14 35490 2.7 1 35059 431 15 38877 2.7 1 38296 581 16 38613 2.7 1 33224 5389 17 48069 2.7 1 42191 5878 18 35254 2.7 1 33128 2126 19 45460 2.7 1 44975 485 20 40788 2.7 1 40323 465 21 43711 2.7 1 43140 571 22 41886 2.7 1 41357 529 23 34639 2.7 1 34143 496 24 35170 2.7 1 34730 440 25 37841 2.7 1 37353 488 26 36654 2.7 1 36144 510 27 41502 2.7 1 40991 511 28 32966 2.7 1 32443 523 29 40299 2.7 1 39824 475 30 37108 2.7 1 36682 426 31 28126 2.7 1 27759 367 32 37951 2.7 1 37593 358 33 30031 2.7 1 29698 333 34 32804 2.7 1 32421 383 35 32632 2.7 1 32305 327 36 29609 2.7 1 29200 409 37 33009 2.7 1 32674 335 38 36298 2.7 1 35853 445 39 34081 2.7 1 33680 401 40 26611 2.7 1 26233 378 41 26522 2.7 1 26221 301 42 34890 2.7 1 34537 353 43 52139 2.7 1 51715 424 44 21077 2.7 1 20744 333 45 19407 2.7 1 19078 329 46 27799 2.7 1 27429 370 47 27435 2.7 1 27077 358 48 22017 2.7 1 21709 308 49 26566 2.7 1 26218 348 50 13393 2.7 1 13155 238 51 21744 2.7 1 21398 346 52 17660 2.7 1 17330 330 53 19690 2.7 1 19421 269 54 24335 2.7 1 24000 335 55 18663 2.7 1 18425 238 56 15459 2.7 1 15174 285 57 23177 2.7 1 22901 276 58 17422 2.7 1 17133 289 59 15338 2.7 1 15056 282 60 12713 2.7 1 12474 239 61 13093 2.7 1 12833 260 62 10734 2.7 1 10505 229 63 16312 2.7 1 16000 312 64 11143 2.7 1 10917 226 65 11020 2.7 1 10793 227 66 12531 2.7 1 12286 245 67 10865 2.7 1 10646 219 68 11066 2.7 1 10853 213 69 12086 2.7 1 11879 207 70 12553 2.7 1 12320 233 71 11548 2.7 1 11306 242 72 12288 2.7 1 12063 225 73 13120 2.7 1 12860 260 74 13868 2.7 1 13620 248 75 15842 2.7 1 15589 253 76 49641 2.7 1 49296 345 77 17075 2.7 1 16812 263 78 6415 2.7 1 6210 205 79 5776 2.7 1 5527 249 80 13972 2.7 1 13731 241 81 3539 2.7 1 3233 306 82 838 2.7 1 602 236 83 584 2.7 1 355 229 84 536 2.7 1 342 194 85 505 2.7 1 316 189 86 563 2.7 1 351 212 87 498 2.7 1 305 193 88 612 2.7 1 275 337 89 456 2.7 1 244 212 90 459 2.7 1 212 247 91 348 2.7 1 116 232 92 344 2.7 1 94 250 93 450 2.7 1 95 355 94 304 2.7 1 75 229 95 350 2.7 1 90 260 96 305 2.7 1 69 236 97 247 2.7 1 37 210 98 299 2.7 1 29 270 99 214 2.7 1 9 205 100 374 2.7 1 0 374 101 206 2.7 1 1 205 102 215 2.7 1 0 215 103 266 2.7 1 0 266 104 198 2.7 1 1 197 105 208 2.7 1 1 207 106 177 2.7 1 1 176 107 173 2.7 1 2 171 108 248 2.7 1 0 248 109 216 2.7 1 0 216 110 310 2.7 1 0 310 111 314 2.7 1 1 313 112 228 2.7 1 1 227 113 224 2.7 1 1 223 114 139 2.7 1 1 138 115 173 2.7 1 0 173 116 274 2.7 1 4 270 117 273 2.7 1 5 268 118 505 2.7 1 2 503 119 109 2.7 1 1 108 120 118 2.7 1 0 118 121 59 2.7 1 0 59 122 155 2.7 1 2 153 123 217 2.7 1 3 214 124 179 2.7 1 0 179 125 69 2.7 1 0 69 126 37 2.7 1 0 37 RUN STATISTICS FOR INPUT FILE: input_2.fastq.gz ============================================= 45375480 sequences processed in total The length threshold of paired-end sequences gets evaluated later on (in the validation step) Validate paired-end files input_1_trimmed.fq.gz and input_2_trimmed.fq.gz file_1: input_1_trimmed.fq.gz, file_2: input_2_trimmed.fq.gz >>>>> Now validing the length of the 2 paired-end infiles: input_1_trimmed.fq.gz and input_2_trimmed.fq.gz <<<<< Writing validated paired-end Read 1 reads to input_1_val_1.fq.gz Writing validated paired-end Read 2 reads to input_2_val_2.fq.gz Total number of sequences analysed: 45375480 Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 992949 (2.19%) Deleting both intermediate output files input_1_trimmed.fq.gz and input_2_trimmed.fq.gz ====================================================================================================
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b5657869d7e2ed6d87
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+Trim Galore! on data 133: trimmed reads pair 2
+Job Metrics
+cgroup
+CPU Time	3 hours and 19 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	12.2 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	12.2 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	6
+Memory Allocated (MB)	30720
+Job Start Time	2023-02-21 23:12:12
+Job End Time	2023-02-21 23:46:01
+Job Runtime (Wall Clock)	33 minutes
+cpuinfo
+Processor Count	32
+meminfo
+Total System Memory	122.8 GB
+Total System Swap	1000.0 MB
+uname
+Operating System	Linux roundup58 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+@1/1 CTGGAGAACGGGAAGGACACGCTGGAGCGCGCGGACCCCCCAAAGACACACGTGACCCACCACCCCATCTCTGACCATGAGGCCACCCTGAGGTG + //

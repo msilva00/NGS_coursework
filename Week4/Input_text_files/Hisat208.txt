@@ -1,0 +1,93 @@
+Dataset Information
+Number	208
+Name	HISAT2 on data 189 and data 188: aligned reads (BAM)
+Created	Wednesday Feb 22nd 5:09:08 2023 UTC
+Filesize	2 GB
+Dbkey	hg38
+Format	bam
+File contents	contents
+History Content API ID	
+f9cad7b01a4721350400b6dd0322528f
+History API ID	
+fb852668cb439203
+UUID	68bc9743-0e9c-49c2-b4b4-786b03c0c47e
+Tool Parameters
+Input Parameter	Value
+Source for the reference genome
+indexed
+Select a reference genome
+hg38canon
+Is this a single or paired library
+paired
+FASTA/Q file #1	
+FASTA/Q file #2	
+Specify strand information
+Unstranded
+Paired-end options
+defaults
+sum
+Output alignment summary in a more machine-friendly style.
+False
+Print alignment summary to a file.
+False
+adv
+Input options
+defaults
+Alignment options
+defaults
+Scoring options
+defaults
+Spliced alignment options
+defaults
+Reporting options
+defaults
+Output options
+defaults
+SAM options
+defaults
+Other options
+defaults
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+HISAT2 on : aligned reads (BAM)	
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1 
+Command Line	empty
+Tool Standard Output	empty
+Tool Standard Error	empty
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b5cde936a8d21c2c01
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+HISAT2 on data 189 and data 188: aligned reads (BAM)
+Job Metrics
+cgroup
+CPU Time	2 hours and 31 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	15.9 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	15.9 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	8
+Memory Allocated (MB)	29900
+Job Start Time	2023-02-22 01:05:27
+Job End Time	2023-02-22 01:26:36
+Job Runtime (Wall Clock)	21 minutes
+cpuinfo
+Processor Count	8
+meminfo
+Total System Memory	28.7 GB
+Total System Swap	0 bytes
+uname
+Operating System	Linux js2-medium15.novalocal 6.1.2-1.el8.elrepo.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Dec 31 09:16:46 EST 2022 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+Binary bam alignments file

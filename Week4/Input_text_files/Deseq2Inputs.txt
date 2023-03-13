@@ -1,0 +1,103 @@
+Dataset Information
+Number	242
+Name	DESeq2 result file on data 230, data 228, and others
+Created	Sunday Mar 12th 3:48:21 2023 UTC
+Filesize	4.9 MB
+Dbkey	hg38
+Format	tabular
+File contents	contents
+History Content API ID	
+f9cad7b01a47213543dc6dc9d06495c1
+History API ID	
+fb852668cb439203
+UUID	cb727ae0-399e-437b-b7dc-8d1563ec4978
+Tool Parameters
+Input Parameter	Value
+datasets_per_level
+Specify a factor name, e.g. effects_drug_x or cancer_markers
+FactorName
+Specify a factor level, typical values could be 'tumor', 'normal', 'treated' or 'control'
+il6tnf
+Counts file(s)	
+Specify a factor level, typical values could be 'tumor', 'normal', 'treated' or 'control'
+r848
+Counts file(s)	
+Specify a factor level, typical values could be 'tumor', 'normal', 'treated' or 'control'
+Control
+Counts file(s)	
+(Optional) provide a tabular file with additional batch factors to include in the model.	
+Files have header?
+True
+Choice of Input data
+count
+advanced_options
+Method for estimateSizeFactors
+No Selection (use default)
+Fit type
+parametric
+Turn off outliers replacement (only affects with >6 replicates)
+False
+Turn off outliers filtering (only affects with >2 replicates)
+False
+Turn off independent filtering
+False
+Perform pre-filtering
+output_options
+Output selector
+Generate plots for visualizing the analysis results Output normalised counts Output rLog normalized table
+Alpha value for MA-plot
+0.1
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+DESeq2 result file on	
+DESeq2 plots on	
+Normalized counts file on	
+rLog-Normalized counts file on	
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.7+galaxy2 
+Command Line	empty
+Tool Standard Output	
+primary factor: FactorName --------------------- DESeq2 run information sample table: FactorName htseq-count on data 85 and data 205 Control htseq-count on data 85 and data 206 Control htseq-count on data 85 and data 207 Control htseq-count on data 85 and data 208 Control htseq-count on data 85 and data 209 Control htseq-count on data 85 and data 210 r848 htseq-count on data 85 and data 211 r848 htseq-count on data 85 and data 212 r848 htseq-count on data 85 and data 213 r848 htseq-count on data 85 and data 201 il6tnf htseq-count on data 85 and data 202 il6tnf htseq-count on data 85 and data 203 il6tnf htseq-count on data 85 and data 204 il6tnf design formula: ~FactorName 13 samples with counts over 67070 genes using disperion fit type: parametric creating plots summary of results FactorName: r848 vs Control out of 32557 with nonzero total read count adjusted p-value < 0.1 LFC > 0 (up) : 6303, 19% LFC < 0 (down) : 6552, 20% outliers [1] : 67, 0.21% low counts [2] : 10132, 31% (mean count < 1) [1] see 'cooksCutoff' argument of ?results [2] see 'independentFiltering' argument of ?results NULL closing plot device null device 1 Session information: R version 4.1.1 (2021-08-10) Platform: x86_64-conda-linux-gnu (64-bit) Running under: Debian GNU/Linux 10 (buster) Matrix products: default BLAS/LAPACK: /usr/local/lib/libopenblasp-r0.3.18.so locale: [1] C attached base packages: [1] stats4 tools stats graphics grDevices utils datasets [8] methods base other attached packages: [1] pheatmap_1.0.12 ggrepel_0.9.1 [3] ggplot2_3.3.5 rjson_0.2.20 [5] BiocParallel_1.28.0 gplots_3.1.1 [7] RColorBrewer_1.1-2 DESeq2_1.34.0 [9] SummarizedExperiment_1.24.0 Biobase_2.54.0 [11] MatrixGenerics_1.6.0 matrixStats_0.61.0 [13] GenomicRanges_1.46.0 GenomeInfoDb_1.30.0 [15] IRanges_2.28.0 S4Vectors_0.32.0 [17] BiocGenerics_0.40.0 getopt_1.20.3 loaded via a namespace (and not attached): [1] httr_1.4.2 bit64_4.0.5 splines_4.1.1 [4] gtools_3.9.2 assertthat_0.2.1 blob_1.2.2 [7] GenomeInfoDbData_1.2.7 pillar_1.6.4 RSQLite_2.2.8 [10] lattice_0.20-45 glue_1.5.1 digest_0.6.29 [13] XVector_0.34.0 colorspace_2.0-2 Matrix_1.3-4 [16] XML_3.99-0.8 pkgconfig_2.0.3 genefilter_1.76.0 [19] zlibbioc_1.40.0 purrr_0.3.4 xtable_1.8-4 [22] scales_1.1.1 tibble_3.1.6 annotate_1.72.0 [25] KEGGREST_1.34.0 generics_0.1.1 farver_2.1.0 [28] ellipsis_0.3.2 cachem_1.0.6 withr_2.4.3 [31] survival_3.2-13 magrittr_2.0.1 crayon_1.4.2 [34] memoise_2.0.1 fansi_0.4.2 lifecycle_1.0.1 [37] munsell_0.5.0 locfit_1.5-9.4 DelayedArray_0.20.0 [40] AnnotationDbi_1.56.1 Biostrings_2.62.0 compiler_4.1.1 [43] caTools_1.18.2 rlang_0.4.12 grid_4.1.1 [46] RCurl_1.98-1.5 bitops_1.0-7 labeling_0.4.2 [49] gtable_0.3.0 DBI_1.1.1 R6_2.5.1 [52] dplyr_1.0.7 fastmap_1.1.0 bit_4.0.4 [55] utf8_1.2.2 KernSmooth_2.23-20 parallel_4.1.1 [58] Rcpp_1.0.7 vctrs_0.3.8 geneplotter_1.72.0 [61] png_0.1-7 tidyselect_1.1.1
+Tool Standard Error	
+Warning message: In Sys.setlocale("LC_MESSAGES", "en_US.UTF-8") : OS reports request to set locale to "en_US.UTF-8" cannot be honored estimating size factors estimating dispersions gene-wise dispersion estimates: 6 workers mean-dispersion relationship final dispersion estimates, MLE betas: 6 workers fitting model and testing: 6 workers
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b5faadbb0eda0749c0
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+DESeq2 result file on data 230, data 228, and others
+Job Metrics
+cgroup
+CPU Time	5 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	3.4 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	3.4 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	6
+Memory Allocated (MB)	30720
+Job Start Time	2023-03-11 20:50:24
+Job End Time	2023-03-11 20:52:18
+Job Runtime (Wall Clock)	1 minute
+cpuinfo
+Processor Count	32
+meminfo
+Total System Memory	122.8 GB
+Total System Swap	1000.0 MB
+uname
+Operating System	Linux roundup58 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+1.GeneID	2.Base mean	3.log2(FC)	4.StdErr	5.Wald-Stats	6.P-value	7.P-adj
+ENSG00000169429.11	1153762.69591347	9.30052599626034	0.324511541885602	28.6600776731047	1.20055072529279e-180	2.68419131160963e-176
+ENSG00000277632.2	128909.002374294	10.1689607940904	0.365899946104175	27.7916433231592	5.4735600517793e-170	6.11889278188408e-166
+ENSG00000137193.14	12537.428617626	6.5123568333244	0.2393897205818	27.2039952989506	5.82516970035092e-163	4.3413048053482e-159
+ENSG00000232810.4	211673.523938948	9.97818087144766	0.370268885331494	26.948472493211	5.94434154824784e-160	3.32258970839313e-156
+ENSG00000093134.15	1818.27312982893	7.97409642122847	0.297305639265248	26.8212081040085	1.8284581051244e-158	8.17613326287428e-155

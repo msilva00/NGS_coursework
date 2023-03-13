@@ -1,0 +1,94 @@
+Dataset Information
+Number	211
+Name	HISAT2 on data 195 and data 194: aligned reads (BAM)
+Created	Wednesday Feb 22nd 5:10:27 2023 UTC
+Filesize	2.8 GB
+Dbkey	hg38
+Format	bam
+File contents	contents
+History Content API ID	
+f9cad7b01a4721354f9cd25ab61f860d
+History API ID	
+fb852668cb439203
+UUID	3b48dd03-a654-4cdf-8319-389551fddbf3
+Tool Parameters
+Input Parameter	Value
+Source for the reference genome
+indexed
+Select a reference genome
+hg38canon
+Is this a single or paired library
+paired
+FASTA/Q file #1	
+FASTA/Q file #2	
+Specify strand information
+Unstranded
+Paired-end options
+defaults
+sum
+Output alignment summary in a more machine-friendly style.
+False
+Print alignment summary to a file.
+False
+adv
+Input options
+defaults
+Alignment options
+defaults
+Scoring options
+defaults
+Spliced alignment options
+defaults
+Reporting options
+defaults
+Output options
+defaults
+SAM options
+defaults
+Other options
+defaults
+Job Resource Parameters
+no
+
+Job Outputs
+Tool Outputs	Dataset
+HISAT2 on : aligned reads (BAM)	
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1 
+Command Line	empty
+Tool Standard Output	empty
+Tool Standard Error	
+57879170 reads; of these: 57879170 (100.00%) were paired; of these: 57753521 (99.78%) aligned concordantly 0 times 17604 (0.03%) aligned concordantly exactly 1 time 108045 (0.19%) aligned concordantly >1 times ---- 57753521 pairs aligned concordantly 0 times; of these: 41089450 (71.15%) aligned discordantly 1 time ---- 16664071 pairs aligned 0 times concordantly or discordantly; of these: 33328142 mates make up the pairs; of these: 2072021 (6.22%) aligned 0 times 24108833 (72.34%) aligned exactly 1 time 7147288 (21.45%) aligned >1 times 98.21% overall alignment rate [bam_sort_core] merging from 52 files and 1 in-memory blocks...
+Tool Exit Code:	0
+Job API ID:	bbd44e69cb8906b5ee0451036d5dc356
+Dataset Storage
+This dataset is stored in a Galaxy object store with id corral4.
+
+Inheritance Chain
+HISAT2 on data 195 and data 194: aligned reads (BAM)
+Job Metrics
+cgroup
+CPU Time	5 hours and 40 minutes
+Failed to allocate memory count	0E-7
+Memory limit on cgroup (MEM)	8.0 EB
+Max memory usage (MEM)	18.1 GB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Max memory usage (MEM+SWP)	18.1 GB
+OOM Control enabled	Yes
+Was OOM Killer active?	No
+Memory softlimit on cgroup	8.0 EB
+core
+Cores Allocated	6
+Memory Allocated (MB)	30720
+Job Start Time	2023-02-22 01:37:54
+Job End Time	2023-02-22 02:39:52
+Job Runtime (Wall Clock)	1 hour and 1 minute
+cpuinfo
+Processor Count	32
+meminfo
+Total System Memory	122.8 GB
+Total System Swap	1000.0 MB
+uname
+Operating System	Linux roundup57 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Dataset Peek
+Binary bam alignments file
